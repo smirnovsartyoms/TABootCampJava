@@ -15,7 +15,7 @@ public class MultiplicationTable {
         {
             for (int a = 11; a <= 22; a++) {
                 System.out.println("*** Table of " + a + " ***");
-                for (int b = 11; b <= 22; b++) {
+                for (int b = 1; b <= 10; b++) {
                     System.out.println(a + "X" + b + " = " + a * b);
 
 
@@ -26,4 +26,6 @@ public class MultiplicationTable {
         }
     }
 }
+
+
 
