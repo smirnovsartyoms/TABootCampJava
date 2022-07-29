@@ -15,13 +15,13 @@ public class ListActivity {
 
 
         ListActivity obj = new ListActivity();
-        obj.print(list);
+        obj.print(ListActivity);
     }
 
-    void print(List list) {
+    void print(ListActivity list) {
         Iterator<Object> nameOfIterator = list.iterator();
         {
-            System.out.println("*** Work of iterator ***");
+            System.out.println("Work of iterator");
             while (nameOfIterator.hasNext()) {
                 System.out.println(nameOfIterator.next());
             }
